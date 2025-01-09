@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import * as serviceWorkerRegistration from './serviceWorkerRegistration';  // Import service worker for PWA
+import * as serviceWorkerRegistration from './serviceWorker';  // Import service worker for PWA
 import 'bootstrap/dist/css/bootstrap.min.css';  // Import Bootstrap styles
 import reportWebVitals from './reportWebVitals';
 
