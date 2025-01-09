@@ -1,14 +1,19 @@
 {
-  "short_name": "PWA Demo",
-  "name": "My PWA React Demo",
+  "short_name": "ReactPWA",
+  "name": "React PWA CRUD Demo",
   "icons": [
     {
-      "src": "icon.png",
+      "src": "/logo192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
   ],
-  "start_url": ".",
+  "start_url": "./",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
